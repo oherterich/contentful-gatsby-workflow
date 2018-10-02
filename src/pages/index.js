@@ -56,7 +56,7 @@ export const pageQuery = graphql`
             }
             photo {
               sizes(
-                maxWidth: 400
+                maxWidth: 200
               ) {
                 ...GatsbyContentfulSizes_tracedSVG
               }
